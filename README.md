@@ -5,8 +5,8 @@
 1. Prerequisites
 
 2. Data structures
-  - Array
-  - Deque
+..- Array
+..- Deque
    - Stack
    - Queue
   - Heap
