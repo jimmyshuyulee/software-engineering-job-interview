@@ -6,13 +6,13 @@
 
 2. Data structures
    - Array
+   - Stack
+   - Queue
    - Deque
-      - Stack
-      - Queue
-  - Heap
-  - Linked List
-  - Tree
-  - Graph
-  - Hash Table
+   - Heap
+   - Linked List
+   - Tree
+   - Graph
+   - Hash Table
 
 3. Algorithms
