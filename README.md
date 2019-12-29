@@ -5,10 +5,12 @@
 1. Prerequisites
 
 2. Data structures
-..- Array
-..- Deque
-   - Stack
-   - Queue
+
+  - Array
+  - Deque
+
+    - Stack
+    - Queue
   - Heap
   - Linked List
   - Tree
