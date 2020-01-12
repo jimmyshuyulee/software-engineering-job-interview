@@ -1,6 +1,8 @@
-# software-engineering-job-interview
+# Software Engineering Job Interview
 
-## index
+This project is created to assist people in preparing software engineering job interviews. It list out technical knowledges required for the interviews, and provide brief overview for each topic. It could be helpful for people who just started their technical interview preparation, and those who need a quick review before going for an interview. 
+
+## Index
 
 1. Prerequisites
 
@@ -8,11 +10,14 @@
    - Array
    - Stack
    - Queue
+   - Priority Queue
    - Deque
    - Heap
+   - Set
+   - Map
+   - Hash Table
    - Linked List
    - Tree
    - Graph
-   - Hash Table
 
 3. Algorithms
