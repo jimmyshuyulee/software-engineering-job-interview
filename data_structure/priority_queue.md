@@ -8,9 +8,7 @@ priority_queue<T> s;
 
 ## Usage
 
-Priority queue is specifically designed to guarentee that the first element always has the highest priority. The definition of priority depends on the compare funtion user defines.
-
-Data is inputed from only one end, and processed at the other end of the structure. It is typically used when the elements needs to be processde in the order they are inserted, for example in algorithms such as Dijkstra.
+Priority queue is specifically designed to guarentee that the first element always has the highest priority. The definition of priority depends on the compare funtion user defines. Data is inputed from only one end, and processed at the other end of the structure. It is typically used when the elements needs to be processde sequentially in sorted order, for example in algorithms such as Dijkstra's algorithm.
 
 ## Basic Operations
 
