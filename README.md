@@ -11,8 +11,6 @@ This project is created to assist people in preparing software engineering job i
    - Stack
    - Queue
    - Priority Queue
-   - Deque
-   - Heap
    - Set
    - Map
    - Hash Table
