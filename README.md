@@ -7,11 +7,11 @@ This project is created to assist people in preparing software engineering job i
 1. Prerequisites
 
 2. Data structures
-   - Array
-   - Stack
-   - Queue
-   - Priority Queue
-   - Set
+   - [Array](https://github.com/jimmyshuyulee/software-engineering-job-interview/blob/master/data_structure/array.md)
+   - [Stack](https://github.com/jimmyshuyulee/software-engineering-job-interview/blob/master/data_structure/stack.md)
+   - [Queue](https://github.com/jimmyshuyulee/software-engineering-job-interview/blob/master/data_structure/queue.md)
+   - [Priority Queue](https://github.com/jimmyshuyulee/software-engineering-job-interview/blob/master/data_structure/priority_queue.md)
+   - [Set](https://github.com/jimmyshuyulee/software-engineering-job-interview/blob/master/data_structure/set.md)
    - Map
    - Hash Table
    - Linked List
