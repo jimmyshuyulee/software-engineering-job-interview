@@ -13,7 +13,7 @@ This project is created to assist people in preparing software engineering job i
    - [Priority Queue](https://github.com/jimmyshuyulee/software-engineering-job-interview/blob/master/data_structure/priority_queue.md)
    - [Set](https://github.com/jimmyshuyulee/software-engineering-job-interview/blob/master/data_structure/set.md)
    - Map
-   - Hash Table
+   - Hash Map
    - Linked List
    - Tree
    - Graph

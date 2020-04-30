@@ -6,65 +6,64 @@ The implementation of set in C++ STL is **set**
 set<T> v;
 ```
 
+Set is similar to **unordered_set**. The two data structure both have a same feature that the elements they contain are unique. The differennce is that elements in a set follow a specific order, but not in unordered_set. 
+
+The underlying data structure of set implementation is binary tree.
+
 ## Usage
 
-When you need to store data **in order**. And will need to frequently access elements **by their indices**. This is a widely used data structure for storing sequence of data. It provides quick access to store elements.
+When you need to store data **uniquely**, and would like them to be **in a self defined order**. Set is commonly used in situations such as extracting unique values and storing them in a sorted order.
 
 ## Basic Operations
 
 ### Insert
 
 ```
-void insert (iterator itr, T val);
+pair<iterator,bool> insert (const T& val);
 ```
 
-Time Complexity: Expected to be O(n). Runtime is linear to the number of element behind the insert position.
+Time Complexity: O(log n). 
 
-Detailed reference: [vector::push_back](http://www.cplusplus.com/reference/vector/vector/push_back/),  [vector::insert](http://www.cplusplus.com/reference/vector/vector/insert/)
+Detailed reference: [set::insert](http://www.cplusplus.com/reference/set/set/insert/)
 
 
 ### Delete
 
 ```
-void erase (iterator itr, T val);
+size_type erase (const T& val);
 ```
-Time Complexity: O(1)
+Time Complexity: O(log n)
 
-
-Detailed reference: [vector::pop_back](http://www.cplusplus.com/reference/vector/vector/pop_back/),  [vector::erase](http://www.cplusplus.com/reference/vector/vector/erase/)
+Detailed reference: [set::erase](http://www.cplusplus.com/reference/set/set/erase/)
 
 ### Access
 
-There are two different functions of accessing an element in a vector.
-
-```
-iterator find (const value_type& val);
-size_t count (const value_type& val);
-```
-
+There is no direct way to access elements in a set. You can only perform searching.
 
 ### Search
 
-There is no single funtion to perform searching on vector. It can only be done by iterating through every elements. 
-
 ```
-for(auto i : v){
- // look for target element...
-}
+iterator find (const T& val) const;
+size_t count (const T& val);
 ```
 
-Time complexity: O(n)
+The find function returns an iterator of the first occurence, and null if it does not exist. The count function returns the number of occurence (in a set, it can only be 1 or 0).
+
+Time complexity: O(log n)
+
+Detailed reference: [set::find](http://www.cplusplus.com/reference/set/set/find/), [set::count](http://www.cplusplus.com/reference/set/set/count)
 
 ## Other Important Operations
 
 ```
-void emplace_back (Args... args);
+iterator lower_bound (const T& val) const;
+iterator upper_bound (const T& val) const;
 ```
 
 ## Summary
 | Operation | Function | Time Complexity |
 | --------- | -------- | --------------- |
-| Insert | push_back() <br> insert()| O(1) |
-| Delete | pop_back() <br> delete()| O(1) |
-| Access | [] operator <br> find()|  O(1) |
-| Search | use a loop | O(n) |
+| Insert | insert()| O(log n) |
+| Delete | erase()| O(log n) |
+| Access | |   |
+| Search | find() | O(log n) |
